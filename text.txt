@@ -1,0 +1,21 @@
+nombre 
+
+entidad + useCase | controller | dtos | repository | Interfaces
+
+
+metodos 
+verbo  + entidades
+ejemplo : ChangeInventaryWithProductAndCateogry
+
+
+controller 
+mapear datos llamar casos de uso
+
+casos de uso
+logica de aplicaion
+
+dominio
+entidades que maneja la aplicacion.
+
+repository 
+solo persistencia de datos, nada de logica.
