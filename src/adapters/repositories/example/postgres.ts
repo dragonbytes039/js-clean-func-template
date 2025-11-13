@@ -1,5 +1,5 @@
 import type { Example } from "../../../domain/entities/Example.js";
-import type { ExampleDBRepository } from "../../../domain/repositories/example/db.js";
+import type { ExampleDBRepository } from "../../../domain/repositories/example.db.js";
 
 
 export function ExamplePostgressRepositoryFactory():ExampleDBRepository{
