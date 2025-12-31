@@ -1,7 +1,7 @@
 import type { Example } from "../../../domain/entities/Example.js";
 import type { ExampleDBRepository } from "../../../domain/repositories/example.db.js";
-import type { CreateExampleServiceDto } from "../../types/example/dtos.js";
-import type { CreateExampleService} from "../../types/example/types.js";
+import type { CreateExampleServiceDto } from "../../types/example.dtos.js";
+import type { CreateExampleService } from "../../types/example.types.js";
 
     
 

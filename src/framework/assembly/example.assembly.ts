@@ -7,5 +7,11 @@ import { createExampleControllerFactory } from '../../adapters/http/example/crea
 // repository
 const repositoryAssembly = ExamplePostgressRepositoryFactory()
 
+//services & controllers
 const createExampleService = createExampleServiceFactory(repositoryAssembly)
-export const createExampleControllerBuild = createExampleControllerFactory(createExampleService)
+const createExample = createExampleControllerFactory(createExampleService)
+
+
+export default {
+    createExample
+}

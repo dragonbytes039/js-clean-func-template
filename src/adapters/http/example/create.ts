@@ -1,5 +1,5 @@
 import type {Request, Response, NextFunction } from "express"
-import type { CreateExampleService } from "../../../../application/types/example/types.js"
+import type { CreateExampleService } from "../../../application/types/example.types.js"
 
 export function createExampleControllerFactory(CreateExampleService: CreateExampleService){
 
